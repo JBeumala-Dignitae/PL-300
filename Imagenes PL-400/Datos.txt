@@ -1,0 +1,54 @@
+Tabla	Menu		
+--------------------			
+Display name	Primary		Data Type	Primary Image
+Nombre	        yes	       Text	
+Descripcion	               Multiline Text	
+Precio		               Currency	
+Imagen		               Image	
+
+
+Añadir Grid mostrando registros relacionados
+
+
+Tabla Pedidos
+----------------------
+
+Display Name	Primary		Data Type	Table	Calculated	Choices
+Nombre	        Yes	        Text			
+Menu		                Lookup	        Menu		
+Cantidad		        Whole Number			
+Precio		                Currency			
+Total		                Formula		        Cantidad * Precio	
+Planta		                Text			
+Despacho			Text			
+NombreCompleto			Text			
+Email				Email			
+MenuId				Text			
+FormaPago			Choice			      "Efectivo, Tarjeta"
+EstadoPedido		        Choice			      "Solicitado, En preparación, Listo para llevar, En camino, Entregado"
+
+
+
+Datos Menus
+--------------
+
+Menú	Descripción	Precio
+Espagueti Boloñesa 	
+Sumérgete en la riqueza de la boloñesa: carne sabrosa, tomate dulce, hierbas aromáticas. Espaguetis perfectos, cada bocado una explosión de sabor reconfortante.	 
+10,50 € 
+
+Pizza	
+Tentadoras porciones de alegría: pizza artesanal con base crujiente, queso derretido y salsa vibrante. ¡Una explosión de sabor en cada bocado!	 
+11,50 € 
+
+Pescado con patatas	
+Pescado blanco, crujiente y dorado, envuelto en una capa de rebozado perfecto. A su lado, patatas fritas, rústicas y tiernas, con un toque de sal. Una combinación clásica, simple y profundamente satisfactoria que evoca el sabor del mar y la tradición.	 
+12,50 € 
+
+Hamburguesa con patatas	
+Jugosa hamburguesa a la parrilla, con queso derretido y verduras frescas. Acompañada de crujientes patatas doradas, una explosión de sabor que no podrás resistir.	 
+10,50 € 
+
+Bistec con patatas	
+Suculento bistec a la parrilla, tierno por dentro, crujiente por fuera, acompañado de patatas doradas. Un clásico reconfortante que despierta los sentidos.	 
+14,50 € 
